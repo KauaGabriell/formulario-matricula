@@ -63,9 +63,7 @@ select {
 input {
     &[disabled] {
         background-color: var(--surface-disabled);
-
         border: 1px solid var(--stroke-default);
-
         color: var(--text-primary);
     }
 
@@ -76,7 +74,6 @@ input {
     &+small {
         font: var(--text-sm);
         color: #78716C;
-
         display: inline-block;
         margin-top: .25rem;
     }
@@ -85,10 +82,8 @@ input {
         display: flex;
         align-items: center;
         gap: .25rem;
-
         font: var(--text-sm);
         color: var(--semantic-error);
-
         margin-top: .25rem;
     }
 
